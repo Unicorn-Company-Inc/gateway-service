@@ -1,0 +1,178 @@
+2022-01-25 16:41:15.689  INFO 12720 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : Starting GatewayServiceApplication using Java 17.0.1 on DESKTOP-72V1VFI with PID 12720 (C:\Development\Java\private\gateway-service\target\classes started by TH in C:\Development\Java\private\gateway-service)
+2022-01-25 16:41:15.689  INFO 12720 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : No active profile set, falling back to default profiles: default
+2022-01-25 16:41:15.787  INFO 12720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-01-25 16:41:15.790  INFO 12720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-01-25 16:41:15.790  INFO 12720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-01-25 16:41:15.806  INFO 12720 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=507ac38a-9cc6-3075-bb11-35bbc51de8b2
+2022-01-25 16:41:15.937  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2022-01-25 16:41:15.938  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2022-01-25 16:41:15.938  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2022-01-25 16:41:15.938  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2022-01-25 16:41:15.938  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2022-01-25 16:41:15.938  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2022-01-25 16:41:15.938  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2022-01-25 16:41:15.938  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2022-01-25 16:41:15.938  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2022-01-25 16:41:15.939  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2022-01-25 16:41:15.939  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2022-01-25 16:41:15.939  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2022-01-25 16:41:15.939  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-01-25 16:41:15.963  WARN 12720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-01-25 16:41:16.050  INFO 12720 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2022-01-25 16:41:16.205  INFO 12720 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : Started GatewayServiceApplication in 0.609 seconds (JVM running for 1896.548)
+2022-01-25 16:41:16.206  INFO 12720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-25 16:41:35.379  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:42:05.238  INFO 12720 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : Starting GatewayServiceApplication using Java 17.0.1 on DESKTOP-72V1VFI with PID 12720 (C:\Development\Java\private\gateway-service\target\classes started by TH in C:\Development\Java\private\gateway-service)
+2022-01-25 16:42:05.239  INFO 12720 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : No active profile set, falling back to default profiles: default
+2022-01-25 16:42:05.334  INFO 12720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-01-25 16:42:05.334  INFO 12720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-01-25 16:42:05.335  INFO 12720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-01-25 16:42:05.353  INFO 12720 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=507ac38a-9cc6-3075-bb11-35bbc51de8b2
+2022-01-25 16:42:05.486  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2022-01-25 16:42:05.486  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2022-01-25 16:42:05.486  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2022-01-25 16:42:05.486  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2022-01-25 16:42:05.486  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2022-01-25 16:42:05.486  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2022-01-25 16:42:05.487  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2022-01-25 16:42:05.487  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2022-01-25 16:42:05.487  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2022-01-25 16:42:05.487  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2022-01-25 16:42:05.487  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2022-01-25 16:42:05.487  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2022-01-25 16:42:05.487  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-01-25 16:42:05.511  WARN 12720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-01-25 16:42:05.600  INFO 12720 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2022-01-25 16:42:05.751  INFO 12720 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : Started GatewayServiceApplication in 0.603 seconds (JVM running for 1946.093)
+2022-01-25 16:42:05.751  INFO 12720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-25 16:43:20.113  INFO 12720 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : Starting GatewayServiceApplication using Java 17.0.1 on DESKTOP-72V1VFI with PID 12720 (C:\Development\Java\private\gateway-service\target\classes started by TH in C:\Development\Java\private\gateway-service)
+2022-01-25 16:43:20.113  INFO 12720 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : No active profile set, falling back to default profiles: default
+2022-01-25 16:43:20.211  INFO 12720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-01-25 16:43:20.211  INFO 12720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-01-25 16:43:20.212  INFO 12720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-01-25 16:43:20.231  INFO 12720 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=507ac38a-9cc6-3075-bb11-35bbc51de8b2
+2022-01-25 16:43:20.360  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2022-01-25 16:43:20.360  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2022-01-25 16:43:20.360  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2022-01-25 16:43:20.361  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2022-01-25 16:43:20.361  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2022-01-25 16:43:20.361  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2022-01-25 16:43:20.361  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2022-01-25 16:43:20.361  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2022-01-25 16:43:20.361  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2022-01-25 16:43:20.361  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2022-01-25 16:43:20.361  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2022-01-25 16:43:20.361  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2022-01-25 16:43:20.362  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-01-25 16:43:20.385  WARN 12720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-01-25 16:43:20.473  INFO 12720 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2022-01-25 16:43:20.625  INFO 12720 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : Started GatewayServiceApplication in 0.606 seconds (JVM running for 2020.968)
+2022-01-25 16:43:20.626  INFO 12720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-25 16:43:24.019  INFO 12720 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : Starting GatewayServiceApplication using Java 17.0.1 on DESKTOP-72V1VFI with PID 12720 (C:\Development\Java\private\gateway-service\target\classes started by TH in C:\Development\Java\private\gateway-service)
+2022-01-25 16:43:24.019  INFO 12720 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : No active profile set, falling back to default profiles: default
+2022-01-25 16:43:24.118  INFO 12720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-01-25 16:43:24.118  INFO 12720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-01-25 16:43:24.121  INFO 12720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2022-01-25 16:43:24.137  INFO 12720 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=507ac38a-9cc6-3075-bb11-35bbc51de8b2
+2022-01-25 16:43:24.266  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2022-01-25 16:43:24.266  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2022-01-25 16:43:24.266  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2022-01-25 16:43:24.266  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2022-01-25 16:43:24.266  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2022-01-25 16:43:24.266  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2022-01-25 16:43:24.266  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2022-01-25 16:43:24.267  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2022-01-25 16:43:24.267  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2022-01-25 16:43:24.267  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2022-01-25 16:43:24.267  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2022-01-25 16:43:24.267  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2022-01-25 16:43:24.267  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-01-25 16:43:24.291  WARN 12720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-01-25 16:43:24.379  INFO 12720 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2022-01-25 16:43:24.532  INFO 12720 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : Started GatewayServiceApplication in 0.603 seconds (JVM running for 2024.874)
+2022-01-25 16:43:24.533  INFO 12720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-25 16:43:29.386  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : GET http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:33.954  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : GET http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:34.563  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : GET http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:49.192  INFO 12720 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : Starting GatewayServiceApplication using Java 17.0.1 on DESKTOP-72V1VFI with PID 12720 (C:\Development\Java\private\gateway-service\target\classes started by TH in C:\Development\Java\private\gateway-service)
+2022-01-25 16:43:49.193  INFO 12720 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : No active profile set, falling back to default profiles: default
+2022-01-25 16:43:49.291  INFO 12720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-01-25 16:43:49.291  INFO 12720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-01-25 16:43:49.292  INFO 12720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-01-25 16:43:49.310  INFO 12720 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=507ac38a-9cc6-3075-bb11-35bbc51de8b2
+2022-01-25 16:43:49.440  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2022-01-25 16:43:49.441  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2022-01-25 16:43:49.441  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2022-01-25 16:43:49.441  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2022-01-25 16:43:49.441  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2022-01-25 16:43:49.441  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2022-01-25 16:43:49.441  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2022-01-25 16:43:49.441  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2022-01-25 16:43:49.442  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2022-01-25 16:43:49.442  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2022-01-25 16:43:49.442  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2022-01-25 16:43:49.442  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2022-01-25 16:43:49.442  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-01-25 16:43:49.466  WARN 12720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-01-25 16:43:49.552  INFO 12720 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2022-01-25 16:43:49.704  INFO 12720 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : Started GatewayServiceApplication in 0.602 seconds (JVM running for 2050.046)
+2022-01-25 16:43:49.705  INFO 12720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-25 16:43:56.149  INFO 12720 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : Starting GatewayServiceApplication using Java 17.0.1 on DESKTOP-72V1VFI with PID 12720 (C:\Development\Java\private\gateway-service\target\classes started by TH in C:\Development\Java\private\gateway-service)
+2022-01-25 16:43:56.149  INFO 12720 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : No active profile set, falling back to default profiles: default
+2022-01-25 16:43:56.248  INFO 12720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-01-25 16:43:56.248  INFO 12720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-01-25 16:43:56.251  INFO 12720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2022-01-25 16:43:56.266  INFO 12720 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=507ac38a-9cc6-3075-bb11-35bbc51de8b2
+2022-01-25 16:43:56.394  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2022-01-25 16:43:56.395  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2022-01-25 16:43:56.395  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2022-01-25 16:43:56.395  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2022-01-25 16:43:56.395  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2022-01-25 16:43:56.395  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2022-01-25 16:43:56.395  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2022-01-25 16:43:56.395  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2022-01-25 16:43:56.396  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2022-01-25 16:43:56.396  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2022-01-25 16:43:56.396  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2022-01-25 16:43:56.396  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2022-01-25 16:43:56.396  INFO 12720 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-01-25 16:43:56.419  WARN 12720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-01-25 16:43:56.506  INFO 12720 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2022-01-25 16:43:56.652  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:56.657  INFO 12720 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : Started GatewayServiceApplication in 0.6 seconds (JVM running for 2056.999)
+2022-01-25 16:43:56.658  INFO 12720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-25 16:43:57.192  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:57.591  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:57.750  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:57.894  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:58.028  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:58.148  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:58.282  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:58.414  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:58.498  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:58.609  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:58.717  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:58.811  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:58.930  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:59.042  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:59.140  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:59.249  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:59.342  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:59.456  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:59.529  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:43:59.627  INFO 12720 --- [reactor-http-nio-2] gFilter$$EnhancerBySpringCGLIB$$e18e2c22 : REQUEST: http://localhost:8080/products/100 -> http://localhost:3001/product/products/100
+2022-01-25 16:44:18.794  INFO 22508 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : Starting GatewayServiceApplication using Java 17.0.1 on DESKTOP-72V1VFI with PID 22508 (C:\Development\Java\private\gateway-service\target\classes started by TH in C:\Development\Java\private\gateway-service)
+2022-01-25 16:44:18.794  INFO 22508 --- [restartedMain] c.s.gateway.GatewayServiceApplication    : No active profile set, falling back to default profiles: default
+2022-01-25 16:44:18.831  INFO 22508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-25 16:44:18.831  INFO 22508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-25 16:44:19.255  INFO 22508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-01-25 16:44:19.257  INFO 22508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-01-25 16:44:19.273  INFO 22508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2022-01-25 16:44:19.400  INFO 22508 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=507ac38a-9cc6-3075-bb11-35bbc51de8b2
+2022-01-25 16:44:20.214  INFO 22508 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2022-01-25 16:44:20.214  INFO 22508 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2022-01-25 16:44:20.214  INFO 22508 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2022-01-25 16:44:20.214  INFO 22508 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2022-01-25 16:44:20.214  INFO 22508 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2022-01-25 16:44:20.215  INFO 22508 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2022-01-25 16:44:20.215  INFO 22508 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
