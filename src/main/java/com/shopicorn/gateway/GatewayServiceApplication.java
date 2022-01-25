@@ -15,10 +15,16 @@ public class GatewayServiceApplication {
 
 	@Bean
 	public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
-		return builder.routes()
-				.route("calculator", r -> r.path("/calculator/mwst/**").uri("http://localhost:3003"))
-				.route("products", r -> r.path("/product/**").uri("http://localhost:3001"))
+		return builder.routes().route("calculator",
+				r -> r.path("/mwst/**").filters(f -> f.rewritePath("/mwst/(?<price>.*)", "/calculator/mwst/${price}"))
+						.uri("http://localhost:3003"))
+				.route("product_list",
+						r -> r.path("/products").filters(f -> f.rewritePath("/products", "/product/products"))
+								.uri("http://localhost:3001"))
+				.route("product_info",
+						r -> r.path("/products/**")
+								.filters(f -> f.rewritePath("/products/(?<id>.*)", "/product/products/${id}"))
+								.uri("http://localhost:3001"))
 				.build();
 	}
-
 }
