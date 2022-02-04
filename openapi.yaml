@@ -1,0 +1,212 @@
+openapi: 3.0.3
+info:
+  title: Shopicorn
+  version: '1.0'
+  description: Unicorn accessory shop.
+paths:
+  /products:
+    summary: List of all products
+    get:
+      tags: []
+      responses:
+        '200':
+          description: Successfully return all products
+          content:
+            application/json:
+              schema:
+                type: "array"
+                items: 
+                  $ref: '#/components/schemas/Product'
+  /products/{id}:
+    summary: Get a specific product by id
+    get:
+      tags: []
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+          description: ID of product
+      responses:
+        '200':
+          description: Successfully return product
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+        '404':
+          description: Product not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '400':
+          description: Bad request (validation)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  
+  /products/{id}/details:
+    summary: Get a detailed product by id
+    get:
+      tags: []
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+          description: ID of product
+        - in: query
+          name: currency
+          schema:
+            type: string
+          description: Currency used for price
+      responses:
+        '200':
+          description: Successfully return detailed product
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DetailedProduct'
+        '404':
+          description: Detailed product not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '400':
+          description: Bad request (validation)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+                
+  /mwst/{price}:
+    summary: Get mwst from price
+    get:
+      tags: []
+      parameters:
+        - in: path
+          name: price
+          schema:
+            type: integer
+          required: true
+          description: Price for calculation
+        - in: query
+          name: percentage
+          schema:
+            type: integer
+          description: Custom percentage used for mwst calculation
+      responses:
+        '200':
+          description: Successfully return calculated mwst
+          content:
+            application/json:
+              schema:
+                type: integer
+                example: 19
+        '400':
+          description: Bad request (validation)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+components:
+  securitySchemes: {}
+  schemas: 
+    Error:
+      type: object
+      properties:
+        statusCode:
+          type: integer
+          example: 404
+        message:
+          type: string
+          example: "Product with id 20 not found"
+        error:
+          type: string
+          example: "Not Found"
+    Product:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 0
+        name:
+          type: string
+          example: "Hufeisen 3000"
+        color:
+          type: string
+          example: "#0000ff"
+        category:
+          type: string
+          example: "accessories"
+        description:
+          type: string
+          example: "Ein richtig gutes Hufeisen"
+        manufacturer:
+          type: string
+          example: "Unishoes"
+        releaseDate:
+          type: string
+          example: "2019-01-01"
+        stars:
+          type: integer
+          example: 5
+    DetailedProduct:
+      type: object
+      properties:
+        price:
+          type: number
+          example: 11.9
+        currency:
+          type: string
+          example: "EUR"
+        id:
+          type: integer
+          example: 0
+        name:
+          type: string
+          example: "Hufeisen 3000"
+        color:
+          type: string
+          example: "#0000ff"
+        category:
+          type: string
+          example: "accessories"
+        description:
+          type: string
+          example: "Ein richtig gutes Hufeisen"
+        manufacturer:
+          type: string
+          example: "Unishoes"
+        releaseDate:
+          type: string
+          example: "2019-01-01"
+        stars:
+          type: integer
+          example: 5
+        stock:
+          type: object
+          properties:
+            estimatedDelivery:
+              type: string
+              example: "2022-02-07T14:52:48.505Z"
+            amount:
+              type: integer
+              example: 3
+            id:
+              type: integer
+              example: 0
+  headers: {}
+  responses: {}
+  parameters: {}
+tags: []
+servers:
+  - url: https://unicorn.zernico.de/api
+    description: ''
+    variables: {}
